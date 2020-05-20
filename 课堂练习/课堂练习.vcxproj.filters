@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\NewFilter2">
+      <UniqueIdentifier>{5aae3415-244d-43b5-bf9b-ba3e9ae7efc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NewFilter3">
+      <UniqueIdentifier>{d0292bb0-a275-49da-ac47-c10129e2f564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NewFilter5">
+      <UniqueIdentifier>{201ca9b8-b3d3-46a8-a3be-17733e6f5259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NewFilter4">
+      <UniqueIdentifier>{ad186fca-21a6-45c2-8186-675ceb54ab0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NewFilter6">
+      <UniqueIdentifier>{4f214633-7849-459f-b47e-202812bddddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NewFilter6\file">
+      <UniqueIdentifier>{f42b1a8c-1dbd-4052-ac3e-82240448f124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Task">
+      <UniqueIdentifier>{543e225b-c823-4baf-9dbd-ca74a399def7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NewFilter7">
+      <UniqueIdentifier>{29a0913a-9b59-4fd5-8493-c7aba57d2ea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NewFilter1">
+      <UniqueIdentifier>{66516c34-caf9-418a-b4d5-dd77d07dd56a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dm01_二维指针的输入和输出特性.c">
+      <Filter>源文件\NewFilter3</Filter>
+    </ClCompile>
+    <ClCompile Include="dm02_二级指针做输入_第1种内存模型.c">
+      <Filter>源文件\NewFilter3</Filter>
+    </ClCompile>
+    <ClCompile Include="dm02_二级指针做输入_第2种内存模型.c">
+      <Filter>源文件\NewFilter3</Filter>
+    </ClCompile>
+    <ClCompile Include="dm02_二级指针做输入_第3种内存模型.c">
+      <Filter>源文件\NewFilter3</Filter>
+    </ClCompile>
+    <ClCompile Include="dm03_玩转多级指针.c">
+      <Filter>源文件\NewFilter3</Filter>
+    </ClCompile>
+    <ClCompile Include="dm01_习题.c">
+      <Filter>源文件\NewFilter2</Filter>
+    </ClCompile>
+    <ClCompile Include="dm02_铁律1强化.c">
+      <Filter>源文件\NewFilter2</Filter>
+    </ClCompile>
+    <ClCompile Include="dm03_间接赋值的技术推演.c">
+      <Filter>源文件\NewFilter2</Filter>
+    </ClCompile>
+    <ClCompile Include="dm04_指针的输入和输出特性.c">
+      <Filter>源文件\NewFilter2</Filter>
+    </ClCompile>
+    <ClCompile Include="dm05_字符串基本操作.c">
+      <Filter>源文件\NewFilter2</Filter>
+    </ClCompile>
+    <ClCompile Include="dm06_一级指针内存模型建立.c">
+      <Filter>源文件\NewFilter2</Filter>
+    </ClCompile>
+    <ClCompile Include="dm07_字符串做函数参数.c">
+      <Filter>源文件\NewFilter2</Filter>
+    </ClCompile>
+    <ClCompile Include="dm08_项目开发字符串模型_strstr_while.c">
+      <Filter>源文件\NewFilter2</Filter>
+    </ClCompile>
+    <ClCompile Include="dm09_两头堵模型.c">
+      <Filter>源文件\NewFilter2</Filter>
+    </ClCompile>
+    <ClCompile Include="dm10_字符串反转.c">
+      <Filter>源文件\NewFilter2</Filter>
+    </ClCompile>
+    <ClCompile Include="dm11_考试题强化.c">
+      <Filter>源文件\NewFilter2</Filter>
+    </ClCompile>
+    <ClCompile Include="dm12_const小专题.c">
+      <Filter>源文件\NewFilter2</Filter>
+    </ClCompile>
+    <ClCompile Include="demo08_指针铁律1.c">
+      <Filter>源文件\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="demo_02函数中数组退回测试.c">
+      <Filter>源文件\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="demo_03数据类型分析.c">
+      <Filter>源文件\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="demo_04变量的本质.c">
+      <Filter>源文件\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="demo_05静态存储区.c">
+      <Filter>源文件\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="demo06_堆栈区的理解.c">
+      <Filter>源文件\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="demo07_堆栈的属性测试.c">
+      <Filter>源文件\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="dm04_两个辅助指针变量挖字符串.c">
+      <Filter>源文件\NewFilter3</Filter>
+    </ClCompile>
+    <ClCompile Include="dm05_二级指针作业强化.c">
+      <Filter>源文件\NewFilter3</Filter>
+    </ClCompile>
+    <ClCompile Include="dm06_二级指针作业强化二.c">
+      <Filter>源文件\NewFilter3</Filter>
+    </ClCompile>
+    <ClCompile Include="dm01_数组基础概念.c">
+      <Filter>源文件\NewFilter4</Filter>
+    </ClCompile>
+    <ClCompile Include="dm02_多维数组的本质.c">
+      <Filter>源文件\NewFilter4</Filter>
+    </ClCompile>
+    <ClCompile Include="dm03_多维数组内存储存是线性的.c">
+      <Filter>源文件\NewFilter4</Filter>
+    </ClCompile>
+    <ClCompile Include="dm04_指针数组的应用场景.c">
+      <Filter>源文件\NewFilter4</Filter>
+    </ClCompile>
+    <ClCompile Include="dm01_结构体基本操作.c">
+      <Filter>源文件\NewFilter5</Filter>
+    </ClCompile>
+    <ClCompile Include="dm02_结构体做函数参数.c">
+      <Filter>源文件\NewFilter5</Filter>
+    </ClCompile>
+    <ClCompile Include="dm03_结构体作函数参数进阶.c">
+      <Filter>源文件\NewFilter5</Filter>
+    </ClCompile>
+    <ClCompile Include="dm04_结构体作函数参数进阶2.c">
+      <Filter>源文件\NewFilter5</Filter>
+    </ClCompile>
+    <ClCompile Include="dm01_强化考试训练.c">
+      <Filter>源文件\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="dm05_结构体的深拷贝与浅拷贝.c">
+      <Filter>源文件\NewFilter5</Filter>
+    </ClCompile>
+    <ClCompile Include="dm06_结构体高级话题.c">
+      <Filter>源文件\NewFilter5</Filter>
+    </ClCompile>
+    <ClCompile Include="dm01_按照字符读写文.c">
+      <Filter>源文件\NewFilter6</Filter>
+    </ClCompile>
+    <ClCompile Include="dm02_按照行读写文件.c">
+      <Filter>源文件\NewFilter6</Filter>
+    </ClCompile>
+    <ClCompile Include="dm03_按照块的方式操作文件.c">
+      <Filter>源文件\NewFilter6</Filter>
+    </ClCompile>
+    <ClCompile Include="dm13_指针的其他用法.c">
+      <Filter>源文件\NewFilter2</Filter>
+    </ClCompile>
+    <ClCompile Include="dm07_再谈多级指针强化.c">
+      <Filter>源文件\NewFilter3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="socketclient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="a.txt">
+      <Filter>源文件\NewFilter6\file</Filter>
+    </Text>
+    <Text Include="b.txt">
+      <Filter>源文件\NewFilter6\file</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="c.data">
+      <Filter>源文件\NewFilter6\file</Filter>
+    </None>
+  </ItemGroup>
+</Project>

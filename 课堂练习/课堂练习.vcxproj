@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="socketclient.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="demo06_堆栈区的理解.c" />
+    <ClCompile Include="demo07_堆栈的属性测试.c" />
+    <ClCompile Include="demo08_指针铁律1.c" />
+    <ClCompile Include="demo_02函数中数组退回测试.c" />
+    <ClCompile Include="demo_03数据类型分析.c" />
+    <ClCompile Include="demo_04变量的本质.c" />
+    <ClCompile Include="demo_05静态存储区.c" />
+    <ClCompile Include="dm01_习题.c" />
+    <ClCompile Include="dm01_二维指针的输入和输出特性.c" />
+    <ClCompile Include="dm01_强化考试训练.c" />
+    <ClCompile Include="dm01_按照字符读写文.c" />
+    <ClCompile Include="dm01_数组基础概念.c" />
+    <ClCompile Include="dm01_结构体基本操作.c" />
+    <ClCompile Include="dm02_二级指针做输入_第1种内存模型.c" />
+    <ClCompile Include="dm02_二级指针做输入_第2种内存模型.c" />
+    <ClCompile Include="dm02_二级指针做输入_第3种内存模型.c" />
+    <ClCompile Include="dm02_多维数组的本质.c" />
+    <ClCompile Include="dm02_按照行读写文件.c" />
+    <ClCompile Include="dm02_结构体做函数参数.c" />
+    <ClCompile Include="dm02_铁律1强化.c" />
+    <ClCompile Include="dm03_多维数组内存储存是线性的.c" />
+    <ClCompile Include="dm03_按照块的方式操作文件.c" />
+    <ClCompile Include="dm03_玩转多级指针.c" />
+    <ClCompile Include="dm03_结构体作函数参数进阶.c" />
+    <ClCompile Include="dm04_结构体作函数参数进阶2.c" />
+    <ClCompile Include="dm03_间接赋值的技术推演.c" />
+    <ClCompile Include="dm04_两个辅助指针变量挖字符串.c" />
+    <ClCompile Include="dm04_指针数组的应用场景.c" />
+    <ClCompile Include="dm04_指针的输入和输出特性.c" />
+    <ClCompile Include="dm05_二级指针作业强化.c" />
+    <ClCompile Include="dm05_字符串基本操作.c" />
+    <ClCompile Include="dm05_结构体的深拷贝与浅拷贝.c" />
+    <ClCompile Include="dm06_一级指针内存模型建立.c" />
+    <ClCompile Include="dm06_二级指针作业强化二.c" />
+    <ClCompile Include="dm06_结构体高级话题.c" />
+    <ClCompile Include="dm07_再谈多级指针强化.c" />
+    <ClCompile Include="dm07_字符串做函数参数.c" />
+    <ClCompile Include="dm08_项目开发字符串模型_strstr_while.c" />
+    <ClCompile Include="dm09_两头堵模型.c" />
+    <ClCompile Include="dm10_字符串反转.c" />
+    <ClCompile Include="dm11_考试题强化.c" />
+    <ClCompile Include="dm12_const小专题.c" />
+    <ClCompile Include="dm13_指针的其他用法.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="a.txt" />
+    <Text Include="b.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="c.data" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{F87784F8-3D25-408C-8427-B613923E75B5}</ProjectGuid>
+    <RootNamespace>课堂练习</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>C_learning_code</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
